@@ -1,1 +1,1 @@
-# 1DG3-data-visualization
+# 1DG3 Data Visualization
