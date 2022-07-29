@@ -5,6 +5,8 @@ from sklearn.decomposition import PCA
 # initilization of the parser
 parser = MMCIFParser()
 structure = parser.get_structure("myFile","1dg3.cif")
+for chain in structure.get_chains():
+    print(chain)
 # get 1DG3 specific data from the structure
 chain = structure[0]['A']
 x_data = []
